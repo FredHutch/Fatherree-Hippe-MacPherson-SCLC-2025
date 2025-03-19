@@ -165,6 +165,6 @@ pred_nmf_cluster_manuscript = function(X, return_missing_ensembl_id = F, ignore_
 ###
 
 save(pred_nmf_cluster_manuscript, rf_model_manuscript, pred_ensembl_manuscript, 
-     cluster_name_manuscript, file = "sclc-nmf-rf-classifier-manuscript.RData")
+     cluster_name_manuscript, file = "Output/sclc-nmf-rf-classifier-manuscript.RData")
 
 
